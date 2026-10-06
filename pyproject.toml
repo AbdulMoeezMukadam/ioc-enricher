@@ -1,0 +1,14 @@
+[project]
+name = "ioc-enricher"
+version = "1.0.0"
+description = "Automated threat-intelligence enrichment for IPs, domains, URLs and file hashes."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31"]
+
+[project.scripts]
+iocenrich = "iocenricher.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

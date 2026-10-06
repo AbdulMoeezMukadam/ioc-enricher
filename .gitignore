@@ -1,0 +1,5 @@
+sample-indicators.txt
+*.pyc
+__pycache__/
+.venv/
+report.html
